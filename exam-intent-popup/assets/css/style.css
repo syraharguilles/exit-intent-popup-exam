@@ -1,0 +1,111 @@
+.is-exit-popup-open {
+    overflow: hidden;
+}
+
+.exit-intent-popup {
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    outline: 0;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
+    overflow-y: auto;
+    pointer-events: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: all 0.5s;
+    visibility: hidden;
+    z-index: 1050;
+}
+
+.exit-intent-popup.open-popup {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+}
+
+.exit-intent-popup__body {
+    padding: 15px;
+}
+
+.exit-intent-popup__button {
+    background: #02397b;
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.exit-intent-popup__button:hover {
+    background: #0b54ac;
+    color: #fff;
+    text-decoration: none;
+}
+
+.exit-intent-popup__close {
+    background: transparent;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 0;
+    text-shadow: 0 1px 0 #fff;
+}
+
+.exit-intent-popup__dialog {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+}
+
+
+.exit-intent-popup__label {
+    color: #fff;
+    margin: 10px 0 15px;
+}
+
+.exit-intent-popup__heading {
+    color: #fff;
+    font-size: 65px;
+    font-weight: 900;
+}
+
+.exit-intent-popup__subheading {
+    font-size: 45px;
+    display: block;
+}
+
+.exit-intent-popup__row {display: flex;}
+
+.exit-intent-popup__col-7 {
+    flex: 0 0 auto;
+    width: 59%;
+    padding-right: 7px;
+}
+
+.exit-intent-popup__col-5 {
+    flex: 0 0 auto;
+    width: 39%;
+    padding-left: 7px;
+}
+
+img.exit-intent-popup__img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.exit-intent-popup__wrap {
+    background: #000;
+    border-radius: 5px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1000px;
+}
