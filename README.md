@@ -8,4 +8,4 @@ Steps to install and set up the plugin.
 4. Click Upload Plugin
 5. Upload the exit-intent-popup
 6. Active the Exit Intent Popup
-7. Add this code <?php echo do_shortcode('[exit_intent_popup_shortcode]'); ?> to footer.
+7. Add this code ```<?php echo do_shortcode('[exit_intent_popup_shortcode]'); ?>``` to footer.
