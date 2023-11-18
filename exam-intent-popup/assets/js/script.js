@@ -229,7 +229,7 @@ function hasCookie(name) {
 
 /**
  * set cookie
- * with 1 day expiration
+ * with 30 days expiration
  *
  * @param {String} name
  * @param {String} value
